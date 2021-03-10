@@ -1,0 +1,1 @@
+If struct is used, the variables are stored in the memory adjacently. Therefore, when we type 108A's it will overwrite the variables.

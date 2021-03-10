@@ -1,0 +1,4 @@
+To prevent the code from having buffer overflow like in line 13, 
+we have to adjust the input size to be scanned to exact number in username[]. Buffer overflow may
+also happen when there's no '&' or sometimes fflush may be needed. In scanf buffer overflow usually
+happens when scanned input does not exactly fit the variable it will be assigned to.
